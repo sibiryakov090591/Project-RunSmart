@@ -1,0 +1,65 @@
+.promo {
+    min-height: 650px;
+    padding: 21px 0 93px 0;
+    background: url("../img/backgrounds/bg_head.jpg") center (center/cover) no-repeat;
+
+    &__header {
+        font-size: 42px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    &__subheader {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 90px;
+    }
+
+    &__icons {
+        margin-top: 65px;
+        max-width: 440px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        max-width: 108px;
+        text-align: center;
+        color: #fff;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+
+        img {
+            height: 46px;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+    }
+
+    &__link {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 20px;
+
+        a {
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: underline;
+            transition: .3s all;
+            &:hover {
+                color: $hover-color;
+            }
+        }
+    }
+}
