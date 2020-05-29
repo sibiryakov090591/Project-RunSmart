@@ -10,4 +10,16 @@
         line-height: 22px;
         margin-top: 80px;
     }
+
+    .error {
+        border: 1px solid red;
+    }
+
+    label.error {
+        color: #fff;
+        border: none;
+        font-size: 11px;
+        margin-top: 1px;
+        margin-top: -12px;
+    }
 }
