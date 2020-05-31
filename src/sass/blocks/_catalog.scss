@@ -46,6 +46,7 @@
         display: none;
         justify-content: space-between;
         flex-wrap: wrap;
+
         &_active {
             display: flex;
         }
@@ -130,6 +131,7 @@
             margin-right: 0px;
             transform: translateX(-100%);
             transition: .3s all;
+
             &_active {
                 transform: translateX(0%);
                 margin-right: 20px;
@@ -147,16 +149,24 @@
             list-style-type: none;
             position: relative;
             transition: .3s all;
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
+
             li {
                 color: #555;
                 font-size: 14px;
                 font-weight: 300;
                 margin-bottom: 20px;
                 position: relative;
+
                 &:before {
                     content: '';
                     position: absolute;
@@ -168,6 +178,7 @@
                 }
             }
         }
+
         &__back {
             position: absolute;
             bottom: 14px;
@@ -180,6 +191,7 @@
             text-decoration: underline;
             text-transform: uppercase;
             transition: .3s all;
+
             &:hover {
                 color: $main-color;
             }
