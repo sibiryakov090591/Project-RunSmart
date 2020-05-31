@@ -7,13 +7,14 @@
     <title>RunSmart</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
 
             <header class="header">
@@ -88,7 +89,7 @@
                 </div>
 
                 <div class="advantages__item">
-                    <img src="icons/icon_heart.png" alt="icon_heart">
+                    <img src="icons/icon_heart.png" alt="icon_heart" class="advantages__icon_animated">
                     <div class="advantages__descr">
                         <div class="advantages__title">
                             Заботимся о здоровье
@@ -529,83 +530,90 @@
                 отзывы клиентов
             </h2>
 
-            <div class="reviews__wrapper">
-                <div class="reviews__item">
+            <div class="reviews__item">
+                <div class="reviews__wrapper ">
+                    <div class="reviews__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="0.5s">
 
-                    <img src="img/reviews/client_1.png" alt="client_1">
+                        <img src="img/reviews/client_1.png" alt="client_1">
 
-                    <div class="reviews__descr">
-                        <div class="reviews__name">
-                            Ирина Иванченко
-                        </div>
+                        <div class="reviews__descr">
+                            <div class="reviews__name">
+                                Ирина Иванченко
+                            </div>
 
-                        <div class="reviews__marafon">
-                            2 полумарафона
-                        </div>
+                            <div class="reviews__marafon">
+                                2 полумарафона
+                            </div>
 
-                        <div class="reviews__subtitle">
-                            Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр, который
-                            подошёл именно под мои цели и финансовые возможности.
-                            Через некоторое время решила обновить гаджет - не раздумывая обратилась туда же. <br><br>
+                            <div class="reviews__subtitle">
+                                Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр,
+                                который
+                                подошёл именно под мои цели и финансовые возможности.
+                                Через некоторое время решила обновить гаджет - не раздумывая обратилась туда же.
+                                <br><br>
 
-                            Новые цели - новый гаджет! <br><br>
+                                Новые цели - новый гаджет! <br><br>
 
-                            Спасибо, RunSmart!
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="reviews__item">
-
-                    <img src="img/reviews/client_2.png" alt="client_1">
-
-                    <div class="reviews__descr">
-                        <div class="reviews__name">
-                            Иван Сёмочкин
-                        </div>
-
-                        <div class="reviews__marafon">
-                            1 полумарафона
-                        </div>
-
-                        <div class="reviews__subtitle">
-                            Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал.
-                            Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую
-                            тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили
-                            план тренировок на месяц вперёд. <br><br>
-
-                            С ними подготовился к своему первому полумарафону! Спасибо!!!
+                                Спасибо, RunSmart!
+                            </div>
                         </div>
                     </div>
-                </div>
-                <hr>
-                <div class="reviews__item">
+                    <hr>
+                    <div class="reviews__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="0.5s">
 
-                    <img src="img/reviews/client_3.png" alt="client_1">
+                        <img src="img/reviews/client_2.png" alt="client_1">
 
-                    <div class="reviews__descr">
-                        <div class="reviews__name">
-                            Юлия Дашкина
+                        <div class="reviews__descr">
+                            <div class="reviews__name">
+                                Иван Сёмочкин
+                            </div>
+
+                            <div class="reviews__marafon">
+                                1 полумарафона
+                            </div>
+
+                            <div class="reviews__subtitle">
+                                Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал.
+                                Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую
+                                тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии,
+                                составили
+                                план тренировок на месяц вперёд. <br><br>
+
+                                С ними подготовился к своему первому полумарафону! Спасибо!!!
+                            </div>
                         </div>
+                    </div>
+                    <hr>
+                    <div class="reviews__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="0.3s">
 
-                        <div class="reviews__marafon">
-                            2 полумарафона
-                        </div>
+                        <img src="img/reviews/client_3.png" alt="client_1">
 
-                        <div class="reviews__subtitle">
-                            Долго не могла начать бегать, т.к. до этого несколько раз начинала, но становилось тяжело и
-                            я бросала. От друзей услышала о RunSmart и о беге с контролем пульса и решила попробовать.
-                            <br><br>
-                            Позвонила, ребята поинтересовались моими целями и подобрали очень интересный вариант со
-                            скидкой! Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2 полумарафона и несколько более
-                            коротких забегов и не намерена останавливаться!
-                            <br><br>
-                            Спасибо!!!
+                        <div class="reviews__descr">
+                            <div class="reviews__name">
+                                Юлия Дашкина
+                            </div>
+
+                            <div class="reviews__marafon">
+                                2 полумарафона
+                            </div>
+
+                            <div class="reviews__subtitle">
+                                Долго не могла начать бегать, т.к. до этого несколько раз начинала, но становилось
+                                тяжело и
+                                я бросала. От друзей услышала о RunSmart и о беге с контролем пульса и решила
+                                попробовать.
+                                <br><br>
+                                Позвонила, ребята поинтересовались моими целями и подобрали очень интересный вариант со
+                                скидкой! Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2 полумарафона и несколько
+                                более
+                                коротких забегов и не намерена останавливаться!
+                                <br><br>
+                                Спасибо!!!
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <footer class="footer">
@@ -668,12 +676,16 @@
         </div>
     </div>
 
+    <a href="#up" class="pageup pageup_animated">
+        <img src="icons/circle-up.svg" alt="up">
+    </a>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
