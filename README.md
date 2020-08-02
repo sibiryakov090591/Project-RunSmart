@@ -3,10 +3,11 @@
 <h2>Implemented:</h2>
 
 <ul>
-    <li>Tabs on JScript</li>
+    <li>SASS</li>
+    <li>Tabs</li>
     <li>Modal windows</li>
     <li>Forms</li>
-    <li>Form validation</li>
+    <li>Forms validation</li>
     <li>Telephone mask</li>
     <li>PHP Mailer</li>
     <li><a href="https://kenwheeler.github.io/slick/">Slick-slider</a></li>
